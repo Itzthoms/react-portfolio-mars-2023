@@ -44,6 +44,9 @@ a {
   color: var(--white-color);
   text-decoration: none;
 }
+a:hover {
+  color: rgb(150, 150, 150);
+}
 
 .link-decoration {
   position: relative;

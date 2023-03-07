@@ -25,10 +25,14 @@
   margin: 0 2.5rem;
   height: auto;
 }
+.kunskap {
+  margin-top: 1rem;
+}
 
 .tech-stack {
   margin-top: 1rem;
   margin-left: 1.1rem;
+  margin-bottom: 6rem;
 }
 
 
