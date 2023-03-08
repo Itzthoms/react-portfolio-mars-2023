@@ -28,9 +28,6 @@ export default function Mode({ handleModeChange, setMode }) {
           <li>
             <a target="_blank" href="https://www.linkedin.com/in/tomas-abrha/">Linkedin</a>
           </li>
-          <li>
-            <a href="#about">Om mig</a>
-          </li>
         </ul>
       </div>
       <button onClick={handleModeChange} className="container-icon">

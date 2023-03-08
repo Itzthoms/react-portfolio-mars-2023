@@ -6,7 +6,7 @@ export default function Header() {
       <header>
         <h1  className="header-title"> Tjena, Tomas Abrha här.</h1>
         <div className="header-title-box">
-          ⚛ Frontend Utvecklare bosatt i Stockholm.
+        ○ Frontend Utvecklare bosatt i Stockholm.
         </div>
       </header>
     </section>

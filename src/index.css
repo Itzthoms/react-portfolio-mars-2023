@@ -6,6 +6,7 @@
   --purple-smoke-color: #cdd0f3;
   --white-smoke-color: #8b949e;
   --white-color: #e5e5e5;
+  --half-black: #1e2735;
   --gradient-color: linear-gradient(99.51deg, #cbbee7 9.03%, #ffffff 89.53%);
 
   /* Light Mode */
@@ -15,8 +16,18 @@
   --black-color: #212121;
   --white-gradient-color: linear-gradient(
     99.51deg,
-    #acb4fe 9.03%,
+    #9da6fc 9.03%,
     #ae88fe 89.53%
+  );
+      --medium-gradient-color: linear-gradient(
+    99.51deg,
+    #6a79ff 9.03%,
+    #834bfd 89.53%
+  );
+    --darker-gradient-color: linear-gradient(
+    99.51deg,
+    #7583ff 9.03%,
+    #905dff 89.53%
   );
 }
 
@@ -131,6 +142,24 @@ body {
   max-width: 40rem;
   padding: 0 1.5rem;
   margin: 0 auto;
+}
+.white-mode .inputs {
+  background-color: var(--purple-smoke-color);
+}
+.white-mode .send-textarea {
+  background-color: var(--purple-smoke-color);
+}
+.white-mode .ct-title {
+  background: var(--medium-gradient-color);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.white-mode .btn-press {
+  color: var(--gray-color);
 }
 
 @media (max-width: 425px) {

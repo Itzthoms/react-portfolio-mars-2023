@@ -10,7 +10,7 @@ export const About = () => {
           <span className="purple-smoke-text">- Introduktion</span>{" "}
         </span>
         <p className="gray-text">
-          Hej, Jag heter Tomas och är en Frontend Utvecklare som mest brukar mig utav webbside-byggen. Jag kan språken HTML, Css, Javascript, Python och PHP. Kan dessutom nytja mig någorlunda utav React.js.{" "}
+          Hej, Jag heter Tomas och är en Frontend Utvecklare som mest brukar mig utav webbside-byggen. Jag kan språken HTML, CSS, Javascript, Python och PHP. Kan dessutom nytja mig någorlunda utav React.js.{" "}
         </p>
         <span className="white-text">
           <p className="kunskap">Kunskapsområden</p>

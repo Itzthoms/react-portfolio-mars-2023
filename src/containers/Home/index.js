@@ -6,6 +6,7 @@ import Header from "../../components/Header/Header";
 import { About } from "../../components/About/About";
 import { Bio } from "../../components/Bio/Bio";
 import { Footer } from "../../components/Footer/Footer";
+import { Contact } from "../../components/Contact/Contact";
 import Project from "../../components/Project/Project";
 
 function Home() {
@@ -21,6 +22,8 @@ function Home() {
       <Header />
       <About />
       <Bio />
+      <Project />
+      <Contact />
       <Footer />
     </div>
   );
