@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import "./Contact.css";
 
 export const Contact = () => {
@@ -17,6 +19,18 @@ export const Contact = () => {
       e.target.reset()
   };
 
+  const notify = () => {
+    toast.success('Meddelandet har skickats!', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      });  };
+
   return (
     
     <form ref={form} onSubmit={sendEmail} className="contact-build">
@@ -27,7 +41,8 @@ export const Contact = () => {
       <input type="email" name="from_email" className="inputs" placeholder="E-mail" />
       <label>Meddelande</label>
       <textarea name="message" className="send-textarea" placeholder="Meddelande" />
-      <input type="submit" value="Send" className="btn-press" />
+      <input type="submit" value="Send" className="btn-press" onClick={notify} />
+      <ToastContainer />
     </form>
   );
 };

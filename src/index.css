@@ -145,9 +145,11 @@ body {
 }
 .white-mode .inputs {
   background-color: var(--purple-smoke-color);
+  color: var(--half-black);
 }
 .white-mode .send-textarea {
   background-color: var(--purple-smoke-color);
+  color: var(--half-black);
 }
 .white-mode .ct-title {
   background: var(--medium-gradient-color);
@@ -160,6 +162,9 @@ body {
 }
 .white-mode .btn-press {
   color: var(--gray-color);
+}
+.white-mode label {
+  color: var(--black-color)
 }
 
 @media (max-width: 425px) {
